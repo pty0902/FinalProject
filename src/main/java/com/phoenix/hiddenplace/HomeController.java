@@ -33,6 +33,10 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		
+		logger.info("최신화됬나요~~~~~~~~");
+		
+		
 		return "home";
 	}
 	
